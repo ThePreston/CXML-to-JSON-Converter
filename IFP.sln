@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.IFP.API", "Microsoft.IFP.API\Microsoft.IFP.API.csproj", "{132DDE19-CACC-45C4-87A1-DA6C93DE08DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{132DDE19-CACC-45C4-87A1-DA6C93DE08DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132DDE19-CACC-45C4-87A1-DA6C93DE08DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132DDE19-CACC-45C4-87A1-DA6C93DE08DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132DDE19-CACC-45C4-87A1-DA6C93DE08DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E43FA241-7595-4C73-A5A5-B6E2113DE5FB}
+	EndGlobalSection
+EndGlobal
