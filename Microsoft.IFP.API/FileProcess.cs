@@ -41,7 +41,8 @@ namespace Microsoft.IFP.API
                 
                 doc.Load(reader);
 
-                return JsonConvert.SerializeXmlNode(doc.SelectSingleNode("cXML") ?? doc);
+                return JsonConvert.SerializeXmlNode(doc.LastChild ?? doc); 
+                //return JsonConvert.SerializeXmlNode(doc.SelectSingleNode("cXML") ?? doc);
             }
         }
 
